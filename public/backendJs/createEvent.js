@@ -14,7 +14,7 @@ const createEvent = async () => {
         eventDetails.append('ticketCount', parseInt(document.getElementById('ticket-Number').value));
         eventDetails.append('price', parseInt(document.getElementById('ticket-Price').value));
         eventDetails.append('phoneNumber', 1234567);
-        eventDetails.append('email', "itandindorji1@gmail.com");
+        eventDetails.append('email', "sapunablockchain@gmail.com");
         eventDetails.append('photo', eventPhotoFile);
 
         console.log(eventDetails);
@@ -82,7 +82,7 @@ const App = {
             // Load DonationToken.json
             const response = await fetch('NFT_TICKET.json');
             if (!response.ok) {
-                throw new Error(`Failed to fetch DonationToken.json. Status: ${response.status}`);
+                throw new Error(Failed to fetch DonationToken.json. Status: ${response.status});
             }
 
             const data = await response.json();
